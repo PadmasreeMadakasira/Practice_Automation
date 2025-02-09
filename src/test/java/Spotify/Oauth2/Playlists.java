@@ -38,6 +38,7 @@ public class Playlists
 	 			assertStatuscode(response.statusCode(),201);
 	 			assertPlaylistEqual(response.as(Pojo.class),requestplaylist);		
 	 			System.out.print("First Commit");
+	 			System.out.print("second commit");
 	 			
 	 			
 	 			
