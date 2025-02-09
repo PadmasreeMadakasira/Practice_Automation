@@ -33,7 +33,7 @@ public class Playlists
 	 		@Test
 	 		public void CreatePlaylist()
 	 		{
-	 			Pojo requestplaylist=playlistBuilder("New Playlist","New Playlist Description",false);	
+	 			Pojo requestplaylist=playlistBuilder("second Playlist","New Playlist Description",false);	
 	 			Response response=PlaylistApicalls.post(requestplaylist);
 	 			assertStatuscode(response.statusCode(),201);
 	 			assertPlaylistEqual(response.as(Pojo.class),requestplaylist);		
