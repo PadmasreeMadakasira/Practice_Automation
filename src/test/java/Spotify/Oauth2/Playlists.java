@@ -37,7 +37,7 @@ public class Playlists
 	 			Response response=PlaylistApicalls.post(requestplaylist);
 	 			assertStatuscode(response.statusCode(),201);
 	 			assertPlaylistEqual(response.as(Pojo.class),requestplaylist);		
-	 			System.out.print("First Commit Practice");
+	 			System.out.print("First Commit");
 	 			
 	 			
 	 			
